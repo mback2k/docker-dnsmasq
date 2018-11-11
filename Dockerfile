@@ -7,4 +7,4 @@ RUN apt-get update && \
 
 VOLUME /etc/dnsmasq
 
-CMD ["/usr/sbin/dnsmasq"]
+CMD ["/usr/sbin/dnsmasq", "-d", "-u", "dnsmasq"]
